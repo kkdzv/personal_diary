@@ -6,7 +6,7 @@ from django.urls import reverse_lazy
 
 class JournalListView(ListView):
     model = Journal
-    template_name = ''
+    template_name = 'journal/journal_list.html'
     context_object_name = 'journal_list'
 
 
